@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /group selector/
+        /*h1,p{
+            color: red;
+        }
+            /* descender selector*/
+        /*div p{
+                color: red;
+            }
+                */
+                /child combinator selector/
+        /*span {
+            background-color: aqua;
+        }
+
+        div>span {
+            background-color: peru;
+        }*/
+        /adjacent sibling selector/
+        /*
+        h1+p{
+            color: peru;
+            font-style: italic;
+        }
+            */
+            /* general sibling selector*/
+            /*
+            h1~p{
+                color: brown;
+                font-style: italic;
+            }
+            */
+                /* psudo classes*/
+                /*
+                h1:hover{
+                    color: blueviolet;
+                    font-style: italic;
+                }
+                button{
+                    padding: 7px 35px;
+                    background-color: aqua;
+                    border: 1px solid black;
+                    border-radius: 12px;
+                }
+                button:hover{
+                    background-color: green;
+                    cursor: pointer;
+                    border: none;
+                    border-radius: 0px;
+                    padding: 15px 60px;
+                }
+                */
+                a:hover {
+  background: yellow;
+}
+/* Active links */
+a:active {
+  color: red;
+}
+
+input[type="text"]
+{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 5px solid green;
+    color: yellowgreen;
+}
+    </style>
+</head>
+
+<body>
+    <!--
+    <h1>heading</h1>
+    <button>submit</button>
+-->
+<p>
+    This paragraph contains a link:
+    <a href="https://practice.geeksforgeeks.org/contest/weekly-assessment-1-aitam-x-gfg">This link will turn red while you click on it.</a>
+    The paragraph will get a gray background while you click on it or the link.
+  </p>
+  <!--attribute selector-->
+  <form>
+  <input type="text" placeholder="enter your name">
+</form>
+</body>
+
+</html>
